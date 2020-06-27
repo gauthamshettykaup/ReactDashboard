@@ -1,0 +1,43 @@
+E:\Hitachi_Vantara\Code\Front_End\Eris>npm install
+
+> node-sass@4.14.1 install E:\Hitachi_Vantara\Code\Front_End\Eris\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\Priya\AppData\Roaming\npm-cache\node-sass\4.14.1\win32-x64-57_binding.node
+
+> core-js@2.6.11 postinstall E:\Hitachi_Vantara\Code\Front_End\Eris\node_modules\babel-runtime\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@3.6.5 postinstall E:\Hitachi_Vantara\Code\Front_End\Eris\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.5 postinstall E:\Hitachi_Vantara\Code\Front_End\Eris\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> node-sass@4.14.1 postinstall E:\Hitachi_Vantara\Code\Front_End\Eris\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at E:\Hitachi_Vantara\Code\Front_End\Eris\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\jest-haste-map\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1776 packages in 155.999s

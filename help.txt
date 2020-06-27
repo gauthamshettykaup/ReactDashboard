@@ -1,0 +1,70 @@
+// E:\Practice-code\front-end\ReactinRedux_menu\paper-dashboard-react
+
+https://jasonwatmore.com/post/2020/03/02/react-hooks-redux-user-registration-and-login-tutorial-example
+
+https://www.beekalene.com/
+
+https://medium.com/trabe/implementing-private-routes-with-react-router-and-hooks-ed38d0cf93d5
+
+
+https://react-bootstrap.github.io/components/alerts/
+https://startbootstrap.com/themes/sb-admin-2/
+https://github.com/StartBootstrap/startbootstrap-sb-admin-2
+
+
+https://themes.getbootstrap.com/product/hyper-responsive-admin-dashboard-template/
+https://coderthemes.com/hyper/saas/index.html
+
+
+https://react-bootstrap.github.io/getting-started/introduction/
+
+
+npm run start
+https://www.linkedin.com/pulse/add-sass-google-fonts-react-project-daksh-gautam/
+https://stackoverflow.com/questions/50722133/what-exactly-is-the-react-scripts-start-command
+
+
+https://create-react-app.dev/docs/adding-typescript/
+
+https://medium.com/trabe/implementing-private-routes-with-react-router-and-hooks-ed38d0cf93d5
+
+<!-------------------------------------------------->
+https://jasonwatmore.com/post/2020/03/02/react-hooks-redux-user-registration-and-login-tutorial-example
+PUBLISHED: MARCH 02 2020
+AWS EC2 
+
+The index.js files in each folder are barrel files that group all the exported modules together so they can be imported using the folder path
+
+# react-hooks-redux-registration-login-example  - Actual Reference project
+
+React Hooks + Redux - User Registration and Login Tutorial & Example
+
+For documentation and live demo see https://jasonwatmore.com/post/2020/03/02/react-hooks-redux-user-registration-and-login-tutorial-example
+
+
+/*!
+
+https://jasonwatmore.com/post/2018/06/14/nodejs-mongodb-simple-api-for-authentication-registration-and-user-management
+PUBLISHED: JUNE 14 2018
+LAST UPDATED: APRIL 27 2020
+
+https://jasonwatmore.com/post/2019/10/14/aspnet-core-3-simple-api-for-authentication-registration-and-user-management
+PUBLISHED: OCTOBER 14 2019
+LAST UPDATED: JUNE 04 2020
+<!-------------------------------------------------->
+=========================================================
+* Paper Dashboard React - v1.2.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/paper-dashboard-react
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+
+* Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
