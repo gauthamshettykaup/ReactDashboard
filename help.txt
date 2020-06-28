@@ -68,3 +68,8 @@ LAST UPDATED: JUNE 04 2020
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+
+
+<!----React Chart----->
+https://www.npmjs.com/package/react-chartjs-2
+<!--------------------->

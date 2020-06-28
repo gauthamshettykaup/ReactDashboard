@@ -35,8 +35,8 @@ class Sidebar extends React.Component {
     return (
       <div
         className="sidebar"
-        data-color={this.props.bgColor}
-        data-active-color={this.props.activeColor}
+        // data-color={this.props.bgColor}
+        // data-active-color={this.props.activeColor}
       >
         <div className="logo">
           <a
