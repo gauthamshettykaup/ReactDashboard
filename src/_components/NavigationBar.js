@@ -52,7 +52,7 @@ class NavigationBar extends React.Component {
     });
   }
   getBrand() {
-    let brandName = "Olympus Dashboards";
+    let brandName = "Hitachi Vantara Dashboards";
     // routes.map((prop, key) => {
     //   if (window.location.href.indexOf(prop.layout + prop.path) !== -1) {
     //     brandName = prop.name;

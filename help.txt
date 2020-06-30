@@ -1,3 +1,8 @@
+PaperArchitectrure -> Layouts <-Views <- Components
+Login --> Views <-- Components
+
+HomePage <-- Layout here. It should be moved inside Layout
+
 // E:\Practice-code\front-end\ReactinRedux_menu\paper-dashboard-react
 
 https://jasonwatmore.com/post/2020/03/02/react-hooks-redux-user-registration-and-login-tutorial-example
@@ -73,3 +78,79 @@ LAST UPDATED: JUNE 04 2020
 <!----React Chart----->
 https://www.npmjs.com/package/react-chartjs-2
 <!--------------------->
+
+<!--React DropDown--->
+http://fraserxu.me/react-dropdown/
+<!------------------>
+https://reactstrap.github.io/components/dropdowns/
+https://react-bootstrap.github.io/components/dropdowns/
+
+<!--Do react hooks replace redux--->
+https://medium.com/javascript-scene/do-react-hooks-replace-redux-210bab340672
+<!------------------>
+
+<!--class properties--->
+https://codeburst.io/use-class-properties-to-clean-up-your-classes-and-react-components-93185879f688
+<!------------------>
+
+<!--React hooks--->
+https://reactjs.org/blog/2019/02/06/react-v16.8.0.html
+https://dev.to/danielleye/react-class-component-vs-function-component-with-hooks-13dg
+
+Here we compare between Bootstrap, React-Bootstrap and Reactstrap. In this comparison we will focus on the latest versions of those packages. 
+The current versions are Bootstrap 4.5.0, React-Bootstrap 1.0.1 and Reactstrap 8.5.1.
+https://npmcompare.com/compare/bootstrap,react-bootstrap,reactstrap#:~:text=When%20comparing%20those%20packages%20you,(141%2C984%20Stars%20on%20Github).&text=react%2Dbootstrap%20has%20more%20versions,reactstrap%20has%20more%20frequent%20updates.
+
+How to write a React component without using classes or hooks
+https://www.freecodecamp.org/news/have-you-used-react-object-components/
+
+TORead:
+https://www.sitepoint.com/react-components-styling-options/
+
+React table:
+https://www.javatpoint.com/react-table
+https://www.npmjs.com/package/react-table
+https://openbase.io/packages/top-react-table-libraries
+https://github.com/tannerlinsley/react-table
+https://codesandbox.io/s/lp2krry0qz
+https://codepen.io/features/pro
+https://openbase.io/js/react-table
+
+
+http://allenfang.github.io/react-bootstrap-table/
+https://react-bootstrap-table.github.io/react-bootstrap-table2/
+https://github.com/react-bootstrap-table/react-bootstrap-table2
+https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/getting-started.html
+https://react-bootstrap-table.github.io/react-bootstrap-table2/storybook/index.html?selectedKind=Welcome&selectedStory=react%20bootstrap%20table%202%20&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel
+
+
+https://blog.logrocket.com/building-styling-tables-react-table-v7/
+
+
+https://developer.aliyun.com/mirror/npm/package/@havenmoney/react-table
+
+https://devexpress.github.io/devextreme-reactive/react/grid/docs/guides/grouping/
+
+
+https://reactjs.org/docs/hooks-state.html
+
+
+https://reactjs.org/docs/hooks-state.html
+
+https://reactjs.org/docs/hooks-state.html
+
+Good
+https://devexpress.github.io/devextreme-reactive/react/grid/demos/featured/redux-integration/
+https://devexpress.github.io/devextreme-reactive/demos/
+https://github.com/DevExpress/devextreme-reactive
+
+
+https://material-ui.com/components/tables/
+https://material-ui.com/
+https://material-ui.com/components/tables/#sorting-amp-selecting
+https://codesandbox.io/s/f71wj
+
+
+Material-UI-Reference:
+https://codesandbox.io/s/wpzrl?file=/index.html:9-297
+https://codesandbox.io/s/kbcee?file=/demo.js
