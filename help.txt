@@ -154,3 +154,36 @@ https://codesandbox.io/s/f71wj
 Material-UI-Reference:
 https://codesandbox.io/s/wpzrl?file=/index.html:9-297
 https://codesandbox.io/s/kbcee?file=/demo.js
+
+Chart
+https://devexpress.github.io/devextreme-reactive/react/chart/demos/overview/multiple-axes/
+https://material-ui.com/discover-more/related-projects/#chart
+
+https://reactstrap.github.io/
+(MIT LICENSE)
+
+
+Free Admin template
+https://github.com/coreui/coreui-free-bootstrap-admin-template
+
+
+https://github.com/reactstrap/reactstrap
+
+
+https://github.com/jerairrest/react-chartjs-2
+https://www.chartjs.org/
+
+realtime chart
+https://apexcharts.com/react-chart-demos/line-charts/realtime/
+
+
+https://github.com/harconst/Cryptocurrency-charts/tree/master/src
+https://medium.com/@oxygenna/real-time-cryptocurrency-visualisations-using-react-websockets-and-chartjs-e4a76132a862
+https://codesandbox.io/s/wq5jwmkw8k?file=/src/app.js
+
+
+https://github.com/jerairrest/react-chartjs-2/blob/master/example/src/components/dynamic-doughnut.js
+
+--Node JS Sample:
+
+E:\Practice-code\Nodejs\bootcamp\Original\devcamper-api

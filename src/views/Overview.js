@@ -2,6 +2,8 @@
 import React from "react";
 // react plugin used to create charts
 import { Line, Pie } from "react-chartjs-2";
+import PerformanceChart from "../views/PerformanceChart.js";
+import CapacityDoughnut from "../views/CapacityDoughnut.js";
 // reactstrap components
 import {
   Card,
@@ -111,10 +113,11 @@ class Overview extends React.Component {
                     <Col lg="6" md="6" sm="6">
                       <Card className="card-stats">
                         <CardHeader>
-                          <CardTitle tag="h10">Capacity</CardTitle>
+                          <CardTitle tag="h10">Capacity(TB)</CardTitle>
                           {/* <p className="card-category">24 Hours performance</p> */}
                         </CardHeader>
                         <CardBody>
+                          <CapacityDoughnut></CapacityDoughnut>
                           {/* <Line
                             data={''}
                             // data={dashboard24HoursPerformanceChart.data}
@@ -134,6 +137,7 @@ class Overview extends React.Component {
                           </CardTitle>
                         </CardHeader>
                         <CardBody>
+                          <PerformanceChart></PerformanceChart>
                         {/* <Line
                             data={''}
                             // data={dashboard24HoursPerformanceChart.data}

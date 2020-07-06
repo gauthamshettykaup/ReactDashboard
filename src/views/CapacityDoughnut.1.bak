@@ -1,0 +1,77 @@
+import React from 'react';
+import {Doughnut} from 'react-chartjs-2';
+
+import { erisActions } from '../_actions';
+import { connect } from "react-redux";
+
+
+class CapacityDoughnut extends React.Component {
+  // state = {
+  //   labels: [
+  //     'Free(TB)',
+  //     'Allocated(TB)',
+  //     'Total(TB)'
+  //   ],
+  //   datasets: [{
+  //     data: [this.RandomInt(50, 200), this.RandomInt(100, 150), this.RandomInt(150, 250)],
+  //     backgroundColor: [
+  //     '#CCC',
+  //     '#36A2EB',
+  //     '#FFCE56'
+  //     ],
+  //     hoverBackgroundColor: [
+  //     '#FF6384',
+  //     '#36A2EB',
+  //     '#FFCE56'
+  //     ]
+  //   }]
+  // };
+
+ 
+
+  componentDidMount() {
+    const {dispatch} = this.props;
+    dispatch(erisActions.getCapacity());
+    
+  }
+
+  RandomInt (min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+  render() {
+   const state = {
+    labels: [
+      'Free(TB)',
+      'Allocated(TB)',
+      'Total(TB)'
+    ],
+    datasets: [{
+      data: [this.props.capacity ? this.props.capacity[0].free_tb:'', this.props.capacity ? this.props.capacity[0].free_tb:'', this.props.capacity ? this.props.capacity[0].free_tb:''],
+      backgroundColor: [
+      '#CCC',
+      '#36A2EB',
+      '#FFCE56'
+      ],
+      hoverBackgroundColor: [
+      '#FF6384',
+      '#36A2EB',
+      '#FFCE56'
+      ]
+    }]
+  };
+    console.log("gautham1234", this.props.capacity)
+    return(
+      <Doughnut width={400}
+      // height={100}
+      height={340} data={state} />
+    );
+  }
+}
+
+const mapStateToProps = state => ({
+  capacity: state.eris.capacity
+});
+
+export default connect(mapStateToProps)(CapacityDoughnut);

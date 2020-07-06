@@ -12,6 +12,9 @@ import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import Switch from '@material-ui/core/Switch';
 import Checkbox from '@material-ui/core/Checkbox';
+import {
+  CardTitle
+} from "reactstrap";
 
 function Row(props) {
   const { row } = props;
@@ -22,9 +25,10 @@ function Row(props) {
         <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
           <Collapse in='true' timeout="auto" unmountOnExit>
             <Box margin={1}>
-              <Typography variant="h6" gutterBottom component="div">
+            <CardTitle tag="h10"> {row.name}</CardTitle>
+              {/* <Typography variant="h6" gutterBottom component="div">
                 {row.name}
-              </Typography>
+              </Typography> */}
               <Table size="small" aria-label="purchases">
                 <TableBody>
                   {row.data.map((data) => (
@@ -68,7 +72,7 @@ const rows = [
   {
     name: 'Datacenter1',
     data: [
-      { system: 'Finance', sn: '123456', enable: true, connected: false },
+      { system: 'Finance USA', sn: '123456', enable: true, connected: false },
       { system: 'Dev_TEST', sn: '654321', enable: false, connected: true },
     ],
   },
